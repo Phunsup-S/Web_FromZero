@@ -1,0 +1,51 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 3rem;
+}
+.containerart{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 48px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 48px;
+}
+.ny{
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.buimg{
+  height: 30px;
+}
